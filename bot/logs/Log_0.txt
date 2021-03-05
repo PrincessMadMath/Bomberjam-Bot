@@ -1,0 +1,9 @@
+System.Exception: X: 0, Y: 11
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Roy_T.AStar.Grids.Grid.DisconnectNode(GridPosition position)
+   at MyBot.Bot.PathSolver.CreateGrid(State state, Player myPlayer) in C:\dev\bomberjam\bot\Bot\PathSolver.cs:line 78
+   --- End of inner exception stack trace ---
+   at MyBot.Bot.PathSolver.CreateGrid(State state, Player myPlayer) in C:\dev\bomberjam\bot\Bot\PathSolver.cs:line 82
+   at MyBot.Bot.PathSolver.DoSomething(State state, Player myPlayer, Int32 x, Int32 y) in C:\dev\bomberjam\bot\Bot\PathSolver.cs:line 14
+   at MyBot.Bot.MacBot.PlayTurn(State state, Player myPlayer) in C:\dev\bomberjam\bot\Bot\MacBot.cs:line 12
+   at MyBot.Program.Main() in C:\dev\bomberjam\bot\MyBot.cs:line 40
